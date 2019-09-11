@@ -1,22 +1,104 @@
-.container {
-    background-color: #c00025;
-    width: 100%;
-    max-width: 550px;
-    border-radius: 15px;
-    border: 2px solid grey;
-    padding-bottom: 25px;
+button {
+  border-radius: 50%;
+  width: 6rem;
+  height: 6rem;
 }
+
+.container {
+  background-color: #c00025;
+  width: 100%;
+  max-width: 550px;
+  border-radius: 15px;
+  border: 2px solid grey;
+  padding-bottom: 25px;
+  margin: 0 auto;
+  height: 50rem;
+}
+
 .display {
-    margin-top: 25px;
-    height: 100px;
-    width: 450px;
-    border-radius: 50px;
-    color: white;
-    background-color: #322c2d;
-    box-shadow: 1px 1px #322c2d;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding-right: 8%;
-    font-size: 5.0rem;
-  }
+  margin-top: 25px;
+  height: 100px;
+  width: 450px;
+  border-radius: 50px;
+  color: white;
+  background-color: #322c2d;
+  box-shadow: 1px 1px #322c2d;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 8%;
+  font-size: 5rem;
+}
+
+.logo-container {
+  margin: 2rem 2rem 0;
+}
+.App {
+  width: 80%;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.appChild {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.buttonsContainer {
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+  height: 80%;
+  /* margin-top: 2rem; */
+}
+
+.numbersOperatorContainer {
+  /* width: 75%; */
+  display: flex;
+  flex-direction: column;
+}
+
+.numbers {
+  display: flex;
+  justify-content: center;
+}
+
+.specials button {
+  margin: 0.5rem;
+  background-color: #225d9e;
+  box-shadow: 0 4px 2px 1px #380c10;
+  font-size: 2rem;
+  color: white;
+}
+.specials div {
+  display: flex;
+  justify-content: center;
+}
+.numbers button {
+  margin: 0.5rem;
+  background-color: #184379;
+  box-shadow: 0 4px 2px 1px #380c10;
+  font-size: 2rem;
+  color: white;
+}
+
+.numbers div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.operators button {
+  margin: 0.5rem;
+  background-color: #237293;
+  box-shadow: 0 4px 2px 1px #380c10;
+  font-size: 2rem;
+  color: white;
+}
+.operators div {
+  display: flex;
+  flex-direction: column;
+}
