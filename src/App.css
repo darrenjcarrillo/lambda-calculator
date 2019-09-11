@@ -30,6 +30,9 @@ button {
   font-size: 5rem;
 }
 
+.logo-container {
+  margin: 2rem 2rem 0;
+}
 .App {
   width: 80%;
   margin: 0 auto;
@@ -62,8 +65,13 @@ button {
   display: flex;
   justify-content: center;
 }
+
 .specials button {
   margin: 0.5rem;
+  background-color: #225d9e;
+  box-shadow: 0 4px 2px 1px #380c10;
+  font-size: 2rem;
+  color: white;
 }
 .specials div {
   display: flex;
@@ -71,6 +79,10 @@ button {
 }
 .numbers button {
   margin: 0.5rem;
+  background-color: #184379;
+  box-shadow: 0 4px 2px 1px #380c10;
+  font-size: 2rem;
+  color: white;
 }
 
 .numbers div {
@@ -81,6 +93,10 @@ button {
 
 .operators button {
   margin: 0.5rem;
+  background-color: #237293;
+  box-shadow: 0 4px 2px 1px #380c10;
+  font-size: 2rem;
+  color: white;
 }
 .operators div {
   display: flex;
